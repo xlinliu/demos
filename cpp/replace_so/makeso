@@ -1,0 +1,2 @@
+libso1.so:so.h so.c
+	gcc so.c -shared -fPIC -olibso1.so

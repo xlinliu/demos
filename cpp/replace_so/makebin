@@ -1,0 +1,2 @@
+bin:libso.so bin.c
+	gcc bin.c -L/home/xlinliu/demos/replace_so -ldl -obin
